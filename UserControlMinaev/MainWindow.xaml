@@ -1,0 +1,17 @@
+﻿<Window x:Class="UserControlMinaev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControlMinaev"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1032">
+    <Grid Margin="0,0,43,0">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:UserControl123 Header="Хрустящий огурчик" Description="С Днем Хрустящего Огурчика!" ColoredSource="/Ogur.jpg"></local:UserControl123>
+            <local:UserControl123 Header="Цемент" Description="С Днем Цемента!" ColoredSource="/Cement.jpeg"></local:UserControl123>
+            <local:UserControl123 Header="Печёная картошечка" Description="C Днём Печёной картошечки!!!" ColoredSource="/kart.jpg"></local:UserControl123>
+            <local:UserControl123 Header="Крашеный забор" Description="С Днём Крашенного Забора!!!" ColoredSource="/Zbor.jpg"></local:UserControl123>
+        </StackPanel>
+    </Grid>
+</Window>
